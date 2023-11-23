@@ -1,17 +1,18 @@
 {
-  "name": "express-hello-world",
+  "name": "express-idempotency-key-demo",
   "version": "1.0.0",
-  "description": "Express Hello World on Render",
+  "description": "Express Idempotency Key Demo",
   "main": "app.js",
-  "repository": "https://github.com/render-examples/express-hello-world",
-  "author": "Render Developers",
+  "repository": "https://github.com/philsturgeon/express-idempotency-key-demo",
+  "author": "Phil Sturgeon",
   "license": "MIT",
   "private": false,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-idempotency": "^1.0.5"
   },
   "engines": {
     "node": ">=14"
